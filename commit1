@@ -1,6 +1,6 @@
 import pygame
 pygame.init()
-
+# Изменение
 #gameScreen = pygame.display.set_mode((250, 200))
 size = (265, 300)
 screen = pygame.display.set_mode(size)
@@ -14,7 +14,9 @@ rect_color = pygame.Color("blue")
 rect_width = 0
 rect_point = [(20, 70), (225, 50)]
 pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+
 rect_color = pygame.Color("red")
+
 rect_width = 0
 rect_point = [(20, 120), (225, 50)]
 pygame.draw.rect(screen, rect_color, rect_point, rect_width)
