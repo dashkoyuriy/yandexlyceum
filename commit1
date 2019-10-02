@@ -6,11 +6,12 @@ size = (265, 300)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Р¤Р»Р°Рі Р Р¤")
 screen.fill((0,155,55))
-rect_color = pygame.Color("white")
-rect_width = 0
-rect_point = [(20, 20), (225, 50)]
-pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+#
 
+rect_color = pygame.Color("blue")
+rect_width = 0
+rect_point = [(20, 70), (225, 50)]
+pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 rect_color = pygame.Color("brown")
 rect_width = 0
 rect_point = [(12, 10), (8, 250)]
